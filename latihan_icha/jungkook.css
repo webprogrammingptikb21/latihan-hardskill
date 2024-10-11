@@ -1,0 +1,11 @@
+.jumbotron {
+    padding: 1rem 1rem;
+    background-color: rgb(21, 21, 21);
+}
+.project {
+    background-color: rgb(30, 27, 27);
+}
+nav {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+  }

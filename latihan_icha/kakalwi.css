@@ -1,0 +1,17 @@
+.jumbotron {
+    padding: 4rem 1rem;
+    background-color: azure;
+  }
+  
+  .project {
+    background-color: azure;
+  }
+  
+  nav {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+  }
+  
+  .text-justify {
+    text-align: justify;
+  }

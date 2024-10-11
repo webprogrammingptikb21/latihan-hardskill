@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hardskill membuat website sederhana</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="UTS BTS.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-bs-theme="dark">
+        <div class="container">
+          <img class="responsiveImg" src="https://www.ibighit.com/images/bts/logo.png" data-media-mobile="https://www.ibighit.com/images/bts/logo-m.png" data-media-web="https://www.ibighit.com/images/bts/logo.png">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="row pb-1 pt-1 mt-3 justify-content-center"></div>
+          <div class="col-md-10"></div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+          </div>
+        </div>
+      </nav>
+
+      <!-- jumbotron -->
+      <div class="jumbotron text-light">
+        <img src="./img/bts-pc.jpg" alt="foto" width="1000px"/>
+      <div class="profile clearfy"> 
+        <section class="intro valign"> 
+            <div class="row pb-1 pt-1 mt-3 justify-content-center">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h2 class="contents-title">ABOUT BTS</h2>
+                    </div>
+                    <div class="col-md-10">
+                        <p class="text-black-50 bg-white"></p>
+                        <p>BTS, an acronym of Bangtan Sonyeondan or “Beyond the Scene,” is a Grammy-nominated South Korean group that has been capturing the hearts of millions of fans globally since its debut in June 2013.
+                        The members of BTS are RM, Jin, SUGA, j-hope, Jimin, V, and Jung Kook. Gaining recognition for their authentic and self-produced music, top-notch performances, and the way they interact with their fans, 
+                        BTS has established themselves as “21st century Pop Icons” breaking countless world records. While imparting a positive influence through activities such as the LOVE MYSELF campaign and the UN ‘Speak Yourself’ speech, 
+                        the band has mobilized millions of fans across the world (named ARMY), collected four No. 1 songs in a span of 9 months, performed multiple sold-out stadium shows across the world, and been named TIME’s Entertainer of the Year 2020. 
+                        BTS has been nominated for Best Pop Duo/Group Performance for the 63rd Grammy Awards and recognized with numerous prestigious awards like the Billboard Music Awards, American Music Awards and MTV Video Music Awards.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>  
+
+        <section class="members contents-white"> 
+            <div class="members-inner"> 
+                <div class="member-list"> 
+                    <div class="title valign" style="height: 240px;"> 
+                        <h2 class="contents-title">MEMBER</h2> 
+                        <div class="row pb-1 pt-1 mt-3 justify-content-cente"></div>
+                        <div class="col-md-3"></div>
+                    </div> 
+                    
+                    <ul class="profile-img quat clearfy"> 
+                        <li> 
+                            <button type="button" title="View RM's profile : Open in a Layered Popup"> 
+                                <div class="contents-obj"> 
+                                    <img src="./img/member-rm.jpg" alt="Photo of BTS member RM."> 
+                                </div> 
+                            </button> 
+                        </li> 
+                        <li> 
+                            <button type="button" title="View Jin's profile : Open in a Layered Popup"> 
+                                <div class="contents-obj"> 
+                                    <img src="./img/member-jin.jpg" alt="Photo of BTS member Jin."> 
+                                </div> 
+                            </button> 
+                        </li> 
+                        <li> 
+                            <button type="button" title="View SUGA's profile : Open in a Layered Popup"> 
+                                <div class="contents-obj"> 
+                                    <img src="./img/member-suga.jpg" alt="Photo of BTS member SUGA."> 
+                                </div> 
+                            </button> 
+                        </li> 
+                        <li> 
+                            <button type="button" title="View j-hope's profile : Open in a Layered Popup"> 
+                                <div class="contents-obj"> 
+                                    <img src="./img/member-jhope.jpg" alt="Photo of BTS member j-hope."> 
+                                </div> 
+                            </button> 
+                        </li> 
+                        <li> 
+                            <button type="button" title="View Jimin's profile : Open in a Layered Popup"> 
+                                <div class="contents-obj"> 
+                                    <img src="./img/member-jimin.jpg" alt="Photo of BTS member Jimin."> 
+                                </div> 
+                            </button> 
+                        </li> 
+                        <li> 
+                            <button type="button" title="View V's profile : Open in a Layered Popup"> 
+                                <div class="contents-obj"> 
+                                    <img src="./img/member-v.jpg" alt="Photo of BTS member V."> 
+                                </div> 
+                            </button> 
+                        </li> 
+                        <li> 
+                            <button type="button" title="View Jung Kook's profile : Open in a Layered Popup"> 
+                                <div class="contents-obj"> 
+                                    <img src="./img/member-jk.jpg" alt="Photo of BTS member Jung Kook."> 
+                                </div> 
+                            </button> 
+                        </li> 
+                    </ul> 
+                </div> 
+                <div class="popup" style="display: none; opacity: 0;"> 
+                    <div class="dimmed"> 
+                    </div> 
+                    <div class="popup-inner"> 
+                        <ul> 
+                            <li class="top" style="display: none;"> 
+                                <div class="contents-obj"> 
+                                    <img src="./img/member-rm.jpg" alt="Photo of BTS member RM." style="height: 483px;"> 
+                                </div> 
+                                <div class="contents valign"> 
+                                    <li class="top active" style="display: block;"> 
+                                        <div class="contents-obj"> 
+                                            <img src="./img/member-rm.jpg" alt="Photo of BTS member RM." style="height: 483px;"> 
+                                        </div> 
+                                        <div class="contents valign"> 
+                                            <dl> 
+                                                
+                                                <dt>RM</dt> 
+                                                <dd class="contents-desc">
+                                                    <ul> 
+                                                        <li>Date <span style="white-space: nowrap">of</span> <span style="white-space: nowrap">Birth</span> <span style="white-space: nowrap">:</span> <span style="white-space: nowrap">12th</span> <span style="white-space: nowrap">September,</span> 1994</li> 
+                                                    </ul> 
+<span style="white-space: nowrap">												</span> </dd> 
+                                            </dl> 
+                                        </div> 
+                                        <button type="button" class="btn-close" title="Close Layered Popup"></button> 
+                                    </li>
+                                    <dl> 
+                                        <dt>RM</dt> 
+                                        <dd class="contents-desc">
+                                            <ul> 
+                                                <li>Date<span style="white-space: nowrap">of</span> 
+                                                        <span style="white-space: nowrap">Birth</span> 
+                                                        <span style="white-space: nowrap">:</span> 
+                                                        <span style="white-space: nowrap">12th</span> 
+                                                        <span style="white-space: nowrap">September,</span> 1994</li> 
+                                            </ul> 
+<span style="white-space: nowrap">												</span> </dd> 
+                                    </dl> 
+                                </div> 
+                                <button type="button" class="btn-close" title="Close Layered Popup"></button> 
+                            </li> 
+                            <li class="top" style="display: none;"> 
+                                <div class="contents-obj"> 
+                                    <img src="./img/member-jin.jpg" alt="Photo of BTS member Jin." style="height: 483px;"> 
+                                </div> 
+                                <div class="contents valign"> 
+                                    <dl> 
+                                        <dt>Jin</dt> 
+                                        <dd class="contents-desc">
+                                            <ul> 
+                                                <li>Date <span style="white-space: nowrap">of</span> 
+                                                    <span style="white-space: nowrap">Birth</span> 
+                                                    <span style="white-space: nowrap">:</span> 
+                                                    <span style="white-space: nowrap">4th</span> 
+                                                    <span style="white-space: nowrap">December,</span> 1992</li> 
+                                            </ul> 
+<span style="white-space: nowrap">												</span> </dd> 
+                                    </dl> 
+                                </div> 
+                                <button type="button" class="btn-close" title="Close Layered Popup"></button> 
+                            </li> 
+                            <li style="display: none;"> 
+                                <div class="contents-obj"> 
+                                    <img src="./img/member-suga.jpg" alt="Photo of BTS member SUGA." style="height: 483px;"> 
+                                </div> 
+                                <div class="contents valign"> 
+                                    <dl> 
+                                        <dt>SUGA</dt> 
+                                        <dd class="contents-desc">
+                                            <ul> 
+                                                <li>Date <span style="white-space: nowrap">of</span> 
+                                                    <span style="white-space: nowrap">Birth</span> 
+                                                    <span style="white-space: nowrap">:</span> 
+                                                    <span style="white-space: nowrap">9th</span> 
+                                                    <span style="white-space: nowrap">March,</span> 1993</li> 
+                                            </ul> 
+<span style="white-space: nowrap">												</span> </dd> 
+                                    </dl> 
+                                </div> 
+                                <button type="button" class="btn-close" title="Close Layered Popup"></button> 
+                            </li> 
+                            <li class="active" style="display: block;"> 
+                                <div class="contents-obj"> 
+                                    <img src="./img/member-jhope.jpg" alt="Photo of BTS member j-hope." style="height: 483px;"> 
+                                </div> 
+                                <div class="contents valign"> 
+                                    <dl> 
+                                        <dt>j-hope</dt> 
+                                        <dd class="contents-desc">
+                                            <ul> 
+                                                <li>Date <span style="white-space: nowrap">of</span> 
+                                                    <span style="white-space: nowrap">Birth</span> 
+                                                    <span style="white-space: nowrap">:</span> 
+                                                    <span style="white-space: nowrap">18th</span> 
+                                                    <span style="white-space: nowrap">February,</span> 1994</li> 
+                                            </ul> 
+<span style="white-space: nowrap">												</span> </dd> 
+                                    </dl> 
+                                </div> 
+                                <button type="button" class="btn-close" title="Close Layered Popup"></button> 
+                            </li> 
+                            <li class="" style="display: none;"> 
+                                <div class="contents-obj"> 
+                                    <img src="./img/member-jimin.jpg" alt="Photo of BTS member Jimin." style="height: 483px;"> 
+                                </div> 
+                                <div class="contents valign"> 
+                                    <dl> 
+                                        <dt>Jimin</dt> 
+                                        <dd class="contents-desc">
+                                            <ul> 
+                                                <li>Date <span style="white-space: nowrap">of</span> 
+                                                    <span style="white-space: nowrap">Birth</span> 
+                                                    <span style="white-space: nowrap">:</span> 
+                                                    <span style="white-space: nowrap">13th</span> 
+                                                    <span style="white-space: nowrap">October,</span> 1995</li> 
+                                            </ul> 
+<span style="white-space: nowrap">												</span> </dd> 
+                                    </dl> 
+                                </div> 
+                                <button type="button" class="btn-close" title="Close Layered Popup"></button> 
+                            </li> 
+                            <li style="display: none;"> 
+                                <div class="contents-obj"> 
+                                    <img src=".img/member-v.jpg" alt="Photo of BTS member V." style="height: 483px;"> 
+                                </div> 
+                                <div class="contents valign"> 
+                                    <dl> 
+                                        <dt>V</dt> 
+                                        <dd class="contents-desc">
+                                            <ul> 
+                                                <li>Date <span style="white-space: nowrap">of</span> 
+                                                    <span style="white-space: nowrap">Birth</span>
+                                                     <span style="white-space: nowrap">:</span> 
+                                                     <span style="white-space: nowrap">30th</span> 
+                                                     <span style="white-space: nowrap">December,</span> 1995</li> 
+                                            </ul> 
+<span style="white-space: nowrap">												</span> </dd> 
+                                    </dl> 
+                                </div> 
+                                <button type="button" class="btn-close" title="Close Layered Popup"></button> 
+                            </li> 
+                            <li style="display: none;"> 
+                                <div class="contents-obj"> 
+                                    <img src="./img/member-jk.jpg" alt="Photo of BTS member Jung Kook." style="height: 483px;"> 
+                                </div> 
+                                <div class="contents valign"> 
+                                    <dl> 
+                                        <dt>Jung Kook</dt> 
+                                        <dd class="contents-desc">
+                                            <ul> 
+                                                <li>Date <span style="white-space: nowrap">of</span> 
+                                                    <span style="white-space: nowrap">Birth</span> 
+                                                    <span style="white-space: nowrap">:</span> 
+                                                    <span style="white-space: nowrap">1st</span> 
+                                                    <span style="white-space: nowrap">September,</span> 1997</li> 
+                                            </ul> 
+<span style="white-space: nowrap">												</span> </dd> 
+                                    </dl> 
+                                </div> 
+                                <button type="button" class="btn-close" title="Close Layered Popup"></button> 
+                            </li> 
+                        </ul> 
+                    </div> 
+                </div> 
+                <div> 
+        </div></div></section> 
+    </div>
+       <!-- end jumbotron -->
+    
+         <!-- footer -->
+          <footer class="bg-black text-white text-center pb-1 pt-1 mt-3 justify-content-center">
+            <p>CopyRight &copy; 2024 | Designed by Icha JK</p>
+          </footer>
+
+        <!-- end footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
